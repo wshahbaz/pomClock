@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            Pomodore Clock
+        </title>
+    </head>
+
+    <body>
+        <div class="top-container">
+            <h1 class="title">Pomodoro Clock</h1>
+        </div>
+    
+        <div class="adjust-container">
+            <div class="session-container">
+                <div class="display">
+                    <p>Session</p>
+                </div>
+                <div id="session-time"></div>
+                <div id="adjust-session-time">
+                    <input type="button" id="session-time-up" value="^">
+                    <input type="button" id="session-time-down" value="v">
+                </div>
+            </div>
+
+            <div class="break-container">
+                <div class="display">
+                    <p>Break</p>
+                </div>
+                <div id="break-time"></div>
+                <div id="adjust-break-time">
+                    <input type="button" id="break-time-up" value="^">
+                    <input type="button" id="break-time-down" value="v">
+                </div>
+            </div>  
+        </div>
+
+        <div class="clock-container">
+            <div class="actionBtns-container">
+                <input type="button" class="functionBtn" id="play" value="PLAY">
+                <input type="button" class="functionBtn" id="restart" value="RESET">
+                <input type="button" class="functionBtn" id="pause" value="PAUSE">
+                <input type="button" class="functionBtn" id="stop" value="STOP">
+            </div>
+            <div class="clcckDisp-container">
+                <div id="time">
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+
+
+</html>
